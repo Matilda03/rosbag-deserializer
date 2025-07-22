@@ -39,7 +39,6 @@ rosbag-deserializer/
 
 ## Data Files
 
-- **`sample-rosbag_0.db3`**: Sample ROS bag file in SQLite database format containing recorded robot/sensor data
 - **`sensor_data_buildings.xlsx`**: Excel spreadsheet containing sensor data from buildings
 - **`metadata.yaml`**: Configuration file with metadata for the processing pipeline
 - **`details.csv`**: Configuration details for the scripts
