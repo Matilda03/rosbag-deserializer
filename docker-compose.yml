@@ -1,0 +1,9 @@
+services:
+  ros-humble:
+    build: .
+    container_name: ros_humble_container
+    working_dir: /workspace
+    volumes:
+      - ./Data:/workspace/Data
+    stdin_open: true
+    tty: true

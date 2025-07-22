@@ -1,0 +1,87 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 29874325231
+  starting_time:
+    nanoseconds_since_epoch: 1614315746338218272
+  message_count: 8262
+  topics_with_message_count:
+#    - topic_metadata:
+#        name: /clock
+#        type: rosgraph_msgs/msg/Clock
+#        serialization_format: cdr
+#        offered_qos_profiles: ""
+#      message_count: 2941
+    - topic_metadata:
+        name: /sensing/gnss/ublox/fix_velocity
+        type: geometry_msgs/msg/TwistWithCovarianceStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 30
+    - topic_metadata:
+        name: /sensing/gnss/ublox/nav_sat_fix
+        type: sensor_msgs/msg/NavSatFix
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 30
+#    - topic_metadata:
+#        name: /sensing/gnss/ublox/navpvt
+#        type: ublox_msgs/msg/NavPVT
+#        serialization_format: cdr
+#        offered_qos_profiles: ""
+#      message_count: 30
+    - topic_metadata:
+        name: /sensing/imu/tamagawa/imu_raw
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 853
+#    - topic_metadata:
+#        name: /sensing/lidar/left/velodyne_packets
+#        type: velodyne_msgs/msg/VelodyneScan
+#        serialization_format: cdr
+#        offered_qos_profiles: ""
+#      message_count: 299
+#    - topic_metadata:
+#        name: /sensing/lidar/right/velodyne_packets
+#        type: velodyne_msgs/msg/VelodyneScan
+#        serialization_format: cdr
+#        offered_qos_profiles: ""
+#      message_count: 299
+#    - topic_metadata:
+#        name: /sensing/lidar/top/velodyne_packets
+#        type: velodyne_msgs/msg/VelodyneScan
+#        serialization_format: cdr
+#        offered_qos_profiles: ""
+#      message_count: 288
+    - topic_metadata:
+        name: /vehicle/status/control_mode
+        type: autoware_vehicle_msgs/msg/ControlModeReport
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 873
+    - topic_metadata:
+        name: /vehicle/status/gear_status
+        type: autoware_vehicle_msgs/msg/GearReport
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 873
+    - topic_metadata:
+        name: /vehicle/status/steering_status
+        type: autoware_vehicle_msgs/SteeringReport
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 873
+    - topic_metadata:
+        name: /vehicle/status/velocity_status
+        type: autoware_vehicle_msgs/msg/VelocityReport
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 873
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - sample-rosbag_0.db3
+  files:
+    []
